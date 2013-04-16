@@ -1,0 +1,35 @@
+---+ Apache Falcon - Data management and processing platform
+
+---++ Overview
+
+Apache Falcon is a data processing and management solution for Hadoop designed for data motion,
+coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers
+to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.
+
+Data Management on Hadoop encompasses data motion, process orchestration, lifecycle management,
+data discovery, etc. among other concerns. Falcon is a new data processing and management platform
+for Hadoop that solves this problem and creates additional opportunities by building on existing
+components within the Hadoop ecosystem without reinventing the wheel.
+
+Falcon will enable easy data management via declarative mechanism for Hadoop. Users of Falcon platform
+simply define infrastructure endpoints, data sets and processing rules declaratively. These declarative
+configurations are expressed in such a way that the dependencies between these configured entities are
+explicitly described. This information about inter-dependencies between various entities allows Falcon
+to orchestrate and manage various data management functions.
+
+Falcon was successfully accepted as an incubation project in April 2013 and is now in apache incubation.
+
+
+---++ Getting Involved
+
+Developers interested in getting involved with Falcon may join the [[./mail-lists.html][mailing lists]],
+[[https://issues.apache.org/jira/browse/FALCON][report bugs]], retrieve code from the
+[[./source-repository.html][version control system]], and make
+[[https://cwiki.apache.org/confluence/display/FALCON/How+To+Contribute][contributions]].
+
+
+#LicenseInfo
+---++ Licensing Information
+
+Falcon is distributed under [[http://www.apache.org/licenses/LICENSE-2.0][Apache License 2.0]].
+

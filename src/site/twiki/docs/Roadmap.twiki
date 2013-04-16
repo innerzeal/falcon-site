@@ -1,0 +1,27 @@
+---+ Roadmap
+
+---++ Data Motion
+
+---+++ Database
+
+   * Import
+   * Export
+   * Credential management
+
+---+++ Filer (File movement)
+
+   * Import using ssh+scp
+   * Export using ssh+scp
+   * Credential management
+
+
+---++ Data Processing
+
+   * Ability to execute Pig/HiveQL scripts directly
+   * Spring Batch integration
+
+
+---++ HCatalog Integration
+
+   * Register/Deregister Tables & Partitions
+   * Schema to be derived from HCatalog

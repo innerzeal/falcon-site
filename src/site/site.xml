@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<project name="Falcon" xmlns="http://maven.apache.org/DECORATION/1.3.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.3.0</version>
+    </skin>
+
+    <custom>
+        <fluidoSkin>
+            <project>Apache Falcon</project>
+            <topBarEnabled>true</topBarEnabled>
+            <sideBarEnabled>false</sideBarEnabled>
+            <leftColumnClass>span2</leftColumnClass>
+            <bodyColumnClass>span10</bodyColumnClass>
+            <googleSearch>
+                <sitesearch>http://incubator.apache.org/falcon</sitesearch>
+            </googleSearch>
+        </fluidoSkin>
+    </custom>
+
+    <bannerLeft>
+        <name>Falcon</name>
+        <src>./images/falcon-logo.png</src>
+        <href>http://incubator.apache.org/falcon</href>
+        <width>200px</width>
+        <height>45px</height>
+    </bannerLeft>
+
+    <bannerRight>
+        <name>Apache Incubator</name>
+        <src>./images/apache-incubator-logo.png</src>
+        <href>http://incubator.apache.org</href>
+    </bannerRight>
+
+    <publishDate position="right"/>
+    <version position="none"/>
+
+    <body>
+        <breadcrumbs position="left">
+            <item name="Apache" href="http://www.apache.org"/>
+            <item name="Falcon" title="Apache Falcon" href="index.html"/>
+        </breadcrumbs>
+
+        <menu name="Falcon">
+            <item name="About" href="index.html"/>
+            <item name="Wiki" href="https://cwiki.apache.org/confluence/display/FALCON"/>
+            <item name="News" href="News.html"/>
+            <item name="Git" href="https://git-wip-us.apache.org/repos/asf/incubator-falcon.git" />
+            <item name="Svn" href="https://svn.apache.org/repos/asf/incubator/falcon" />
+            <item name="Jira" href="https://issues.apache.org/jira/browse/FALCON" />
+            <item name="Powered by" href="https://cwiki.apache.org/confluence/display/FALCON/Powered+by" />
+        </menu>
+
+        <menu name="Project Information">
+            <item name="Summary" href="project-info.html" />
+            <item name="Mailing Lists" href="mail-lists.html" />
+            <item name="IRC" href="https://cwiki.apache.org/confluence/display/FALCON/IRC+Channel" />
+            <item name="Team" href="team-list.html" />
+            <item name="Issue Tracking" href="issue-tracking.html" />
+            <item name="Source Repository" href="source-repository.html" />
+            <item name="License" href="license.html" />
+            <item name="Blog" href="http://blogs.apache.org/falcon/" />
+        </menu>
+
+        <menu name="Releases">
+            <item name="0.2.0 (coming soon)" href=""/>
+            <item name="Roadmap" href="./docs/Roadmap.html"/>
+        </menu>
+
+        <menu name="Documentation">
+            <item name="0.2.0 (coming soon)" href=""/>
+        </menu>
+
+        <menu name="Resources">
+            <item name="Getting Started" href="./docs/GettingStarted.html"/>
+            <item name="Architecture" href="./docs/FalconArchitecture.html"/>
+            <item name="Installation" href="./docs/InstallationSteps.html"/>
+            <item name="On Boarding" href="./docs/OnBoarding.html"/>
+            <item name="Entity Specification" href="./docs/EntitySpecification.html"/>
+            <item name="Client (Falcon CLI)" href="./docs/FalconCLI.html"/>
+        </menu>
+
+        <menu name="ASF">
+            <item name="How Apache Works" href="http://www.apache.org/foundation/how-it-works.html"/>
+            <item name="Foundation" href="http://www.apache.org/foundation/"/>
+            <item name="Sponsoring Apache" href="http://www.apache.org/foundation/sponsorship.html"/>
+            <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
+        </menu>
+
+        <footer>
+            Â© 2011-2012 The Apache Software Foundation. Apache Falcon, Falcon, Apache, the Apache feather logo,
+            and the Apache Falcon project logo are trademarks of The Apache Software Foundation.
+        </footer>
+    </body>
+</project>
