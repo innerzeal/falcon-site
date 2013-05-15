@@ -73,28 +73,32 @@
 
         <menu name="Falcon">
             <item name="About" href="index.html"/>
-            <item name="Wiki" href="https://cwiki.apache.org/confluence/display/FALCON"/>
-            <item name="News" href="News.html"/>
+            <!--<item name="Wiki" href="https://cwiki.apache.org/confluence/display/FALCON"/>-->
+            <item name="Wiki" href="./wiki/FALCON.html"/>
+            <item name="News" href="./wiki/News.html"/>
             <item name="Git" href="https://git-wip-us.apache.org/repos/asf/incubator-falcon.git" />
             <item name="Svn" href="https://svn.apache.org/repos/asf/incubator/falcon" />
             <item name="Jira" href="https://issues.apache.org/jira/browse/FALCON" />
-            <item name="Powered by" href="https://cwiki.apache.org/confluence/display/FALCON/Powered+by" />
+            <!--<item name="Powered by" href="https://cwiki.apache.org/confluence/display/FALCON/Powered+by" />-->
+            <item name="Powered by" href="./wiki/PoweredBy.html" />
+            <item name="Acknowledgements" href="./wiki/Acknowledgements.html" />
         </menu>
 
         <menu name="Project Information">
             <item name="Summary" href="project-info.html" />
             <item name="Mailing Lists" href="mail-lists.html" />
-            <item name="IRC" href="https://cwiki.apache.org/confluence/display/FALCON/IRC+Channel" />
+            <!--<item name="IRC" href="https://cwiki.apache.org/confluence/display/FALCON/IRC+Channel" />-->
+            <item name="IRC" href="./wiki/IRCChannel.html" />
             <item name="Team" href="team-list.html" />
             <item name="Issue Tracking" href="issue-tracking.html" />
             <item name="Source Repository" href="source-repository.html" />
             <item name="License" href="license.html" />
-            <item name="Blog" href="http://blogs.apache.org/falcon/" />
+            <!--<item name="Blog" href="http://blogs.apache.org/falcon/" />-->
         </menu>
 
         <menu name="Releases">
             <item name="0.3.0 (coming soon)" href=""/>
-            <item name="Roadmap" href="./docs/Roadmap.html"/>
+            <item name="Roadmap" href="./wiki/Roadmap.html"/>
         </menu>
 
         <menu name="Documentation">

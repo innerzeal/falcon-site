@@ -1,13 +1,15 @@
----+++ Building & Packaging Falcon
+---++ Building & Packaging Falcon
 
 
 ---+++ Installing Falcon
+
 *Pre-requisites:*
    * hadoop-0.20.2 +
    * oozie-3.1.5 +
+
 *Falcon Server*
 
-   * Download the source from https://github.com/sriksun/Falcon
+   * Download the source from https://git-wip-us.apache.org/repos/asf/incubator-falcon.git
    * Navigate to base project folder,named 'Falcon'
    * Build as "mvn clean package" at the base location. Please note that both maven 2/3 are supported.
    * By default only embedded/standalone mode is build.
@@ -15,7 +17,9 @@
    * To build the Falcon for distributed mode, i.e. multiple server and prism mode, build with MVN profile "distributed".
    * Once the build operation is over,navigate to '<base-folder>/Falcon/webapps/target' and deploy the .war file generated
       there in a web container (Eg: tomcat6).
+
 ---+++ User Guide
+
 *Falcon Client*
 
    * Follow the steps 1 to 3 from server instructions.
@@ -23,7 +27,9 @@
       been generated along with multiple other jars. Fetch this jar and others to use the Falcon client application.
       Please ensure that the other jars in the folder are always specified in the classpath of the client.jar.
    * Please refer Falcon-CLI guide for various options on how to use the falcon client.
+
 ---+++ Administration Guide
+
 *Setting up Falcon server properties:*
 Inside your web container, where the falcon war has exploded, you should be able to find 2 files, startup.properties and runtime.properties.
 The path would be:
@@ -53,6 +59,7 @@ Trying to set config store property for a 'specific' domain:
 qa.config.store.uri=file:///var/lib/tomcat6/target/store
 
 To ensure that Falcon installation on your system uses the qa domain settings, just set the FALCON_DOMAIN value to 'qa' in your environment.
+
 ---++++ Security
 
 *TO-DO*
