@@ -30,12 +30,15 @@
         <fluidoSkin>
             <project>Apache Falcon</project>
             <topBarEnabled>true</topBarEnabled>
+            <topBarContainerStyle>width: 65%;</topBarContainerStyle>
             <sideBarEnabled>false</sideBarEnabled>
             <leftColumnClass>span2</leftColumnClass>
             <bodyColumnClass>span10</bodyColumnClass>
             <googleSearch>
                 <sitesearch>http://incubator.apache.org/falcon</sitesearch>
             </googleSearch>
+            <facebookLike/>
+            <googlePlusOne/>
         </fluidoSkin>
     </custom>
 
@@ -57,6 +60,12 @@
     <version position="none"/>
 
     <body>
+        <head>
+            <script type="text/javascript">
+                $( document ).ready( function() { $( '.carousel' ).carousel( { interval: 3500 } ) } );
+            </script>
+        </head>
+
         <breadcrumbs position="left">
             <item name="Apache" href="http://www.apache.org"/>
             <item name="Falcon" title="Apache Falcon" href="index.html"/>
@@ -84,15 +93,17 @@
         </menu>
 
         <menu name="Releases">
-            <item name="0.2.0 (coming soon)" href=""/>
+            <item name="0.3.0 (coming soon)" href=""/>
             <item name="Roadmap" href="./docs/Roadmap.html"/>
         </menu>
 
         <menu name="Documentation">
-            <item name="0.2.0 (coming soon)" href=""/>
+            <item name="0.3.0 (coming soon)" href=""/>
         </menu>
 
         <menu name="Resources">
+            <item name="Overview" href="./slides/falcon-overview.html"/>
+            <item name="User Guide" href="./slides/falcon-user-guide.html"/>
             <item name="Getting Started" href="./docs/GettingStarted.html"/>
             <item name="Architecture" href="./docs/FalconArchitecture.html"/>
             <item name="Installation" href="./docs/InstallationSteps.html"/>

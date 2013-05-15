@@ -1,4 +1,13 @@
----+ Roadmap
+---+ Apache Falcon Roadmap
+
+---++ Initial Release at Apache (June 2013 - By Summit)
+
+   * Fix unit tests profiles
+   * Checkstyle and Findbugs plugin and fix warnings
+   * Falcon should work with secure Hadoop
+   * Remove dependency on custom DistCp and Oozie
+   * Documentation for User & Developer
+
 
 ---++ Data Motion
 
@@ -15,13 +24,59 @@
    * Credential management
 
 
----++ Data Processing
+---++ Data Lifecycle
 
-   * Ability to execute Pig/HiveQL scripts directly
-   * Spring Batch integration
+---+++ Anonymization of PII Data
+
+   * One-way hash MR job (Pluggable)
+
+---+++ Archival
+
+   * Archive data prior to retention or as its generated/copied into an archival end point (S3, Filer, etc.)
 
 
 ---++ HCatalog Integration
 
-   * Register/Deregister Tables & Partitions
+   * Register/Deregister Partitions
    * Schema to be derived from HCatalog
+   (HCatalog is the single source of truth, tables need to be created prior to scheduling a feed)
+
+
+---++ Resource Management
+
+   * # of connections/streams as a resource
+   * Bandwidth as a resource constraint
+   * Copy jobs will honor the constraints
+
+
+---++ Data Processing
+
+   * Ability to execute Pig/HiveQL scripts directly with out requiring user to embed a oozie workflow
+   * Spring Batch integration (Wish & stretch goal)
+
+
+---++ User Experience
+
+   * UI to define Entities and flow
+
+
+---++ Data Discovery
+
+---+++ Data classification
+
+   * Support feed and process classification based on tags
+
+---+++ Lineage and Audit
+
+   * Record audit for all processing triggered
+   * Record Lineage for process
+   * Will need enhancements to HCatalog
+
+
+---++ Release Schedule (Tentative)
+
+We'll strive to have quarterly releases for Falcon.
+
+   * 0.3 - June 2013
+   * 0.4 - Sep 2013
+   * 0.5 - Dec 2013

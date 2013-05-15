@@ -23,7 +23,7 @@ these entities. This is adequate to provide integrated and seamless experience t
 the falcon platform.
 
 ---+++ Falcon Architecture - Overview
-<img src="./images/Architecture.png" height="400" width="600" />
+<img src="../images/Architecture.png" height="400" width="600" />
 
 ---+++ Scheduler
 Falcon system has picked Oozie as the default scheduler. However the system is open for integration with
@@ -39,10 +39,10 @@ handling late input arrival etc.
 
 
 ---++++ Feed Schedule flow
-<img src="./images/FeedSchedule.png" height="400" width="600" />
+<img src="../images/FeedSchedule.png" height="400" width="600" />
 
 ---++++ Process Schedule flow
-<img src="./images/ProcessSchedule.png" height="400" width="600" />
+<img src="../images/ProcessSchedule.png" height="400" width="600" />
 
 
 
@@ -67,7 +67,7 @@ When a cluster is submitted it is bu default sent to all the servers configured 
 When is feed is SUBMIT / SCHEDULED request is only sent to he servers specified in the feed / process definitions. Servers are mentioned in the feed / process via CLUSTER tags in xml definition.  
 
 ---++++ Prism Setup
-<img src="./images/PrismSetup.png" height="400" width="600" />
+<img src="../images/PrismSetup.png" height="400" width="600" />
  
 ---+++ Configuration Store
 Configuration store is file system based store that the Falcon system maintains where the entity definitions
@@ -281,7 +281,7 @@ If this rule is violated by the user, the feed submission call itself throws bac
 
 
 ---+++ Entity Dependencies in a nutshell
-<img src="./images/EntityDependency.png" height="50" width="300" />
+<img src="../images/EntityDependency.png" height="50" width="300" />
 
 
 The above schematic shows the dependencies between entities in Falcon. The arrow in above diagram

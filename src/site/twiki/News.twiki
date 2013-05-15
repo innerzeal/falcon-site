@@ -1,5 +1,11 @@
 ---+ Apache Falcon - News
 
+---+++ Falcon was in the news
+
+   * http://hortonworks.com/blog/project-falcon-tackling-hadoop-data-lifecycle-management-via-community-driven-open-source/
+   * http://www.inmobi.com/inmobiblog/2013/04/02/inmobi-works-with-hortonworks-to-incubate-falcon-with-apache-software-foundation-to-provide-huge-benefits-to-the-big-data-community
+
+
 ---+++ Falcon talk was accepted at Hadoop Summit 2013, SJC
 Srikanth and Venkatesh had submitted a talk to present Falcon at the Summit and the talk was accepted in the
 Enterprise Data Architecture track. Program details at: http://hadoopsummit.org/san-jose/program/.

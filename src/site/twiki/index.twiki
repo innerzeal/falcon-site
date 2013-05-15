@@ -1,7 +1,5 @@
 ---+ Apache Falcon - Data management and processing platform
 
----++ Overview
-
 Apache Falcon is a data processing and management solution for Hadoop designed for data motion,
 coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers
 to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.
@@ -20,16 +18,106 @@ to orchestrate and manage various data management functions.
 Falcon was successfully accepted as an incubation project in April 2013 and is now in apache incubation.
 
 
+<div id="components" class="carousel slide">
+    <!--  Carousel items  -->
+    <div class="carousel-inner">
+        <div class="active item">
+            <div class="hero-unit">
+                <h3>Provides key services for data processing apps</h3>
+                <p>Complex data processing logic handled by Falcon instead of hard-coded in apps</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Introduces higher layer of  abstractions</h3>
+                <p>Data Set, Infrastructure (Cluster, Database, Filer, etc.), Process</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Declarative language for expressing data management functions</h3>
+                <p>Data management expressed as simple directives, instead of verbosely defining it repeatedly</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Promotes Separation of Concerns</h3>
+                <p>
+                    Allow process owners to keep application/user workflow specific to their application logic
+                    than muddy them with the common management functions.
+                </p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Promotes Polygot programming</h3>
+                <p>
+                    Does not do any heavy lifting but delegates to tools with in the Hadoop ecosystem,
+                    Enhances productivity
+                </p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Data Motion</h3>
+                <p>Data Import & Export from DBs, Filers into HDFS</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Process orchestration</h3>
+                <p>
+                    Late Data Handling, Retries, etc.
+                    Multi-cluster management to support Local/Global Aggregations, Rollups, etc.
+                    <a href="http://oozie.apache.org/">Scheduler</a> integration
+                </p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Data Lifecycle Management</h3>
+                <p>Retention, Replication/BCP/DR, Anonymization of PII Data, Archival, etc.</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="hero-unit">
+                <h3>Data Discovery</h3>
+                <p>Data Classification, Audit, Lineage.</p>
+                <p>
+                    <a class="btn btn-primary pull-right" href="././docs/GettingStarted.html">Learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 ---++ Getting Involved
 
 Developers interested in getting involved with Falcon may join the [[./mail-lists.html][mailing lists]],
 [[https://issues.apache.org/jira/browse/FALCON][report bugs]], retrieve code from the
 [[./source-repository.html][version control system]], and make
 [[https://cwiki.apache.org/confluence/display/FALCON/How+To+Contribute][contributions]].
-
-
-#LicenseInfo
----++ Licensing Information
-
-Falcon is distributed under [[http://www.apache.org/licenses/LICENSE-2.0][Apache License 2.0]].
-
